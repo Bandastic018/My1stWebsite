@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul class="nav" id="nav">
+      <li id="hnav" class="nav"><a href="index.html">Home</a></li>
+      <li id="Cnav" class="nav"><a href="ContactMe.html">Contact-me</a></li>
+      <li id="Rnav" class="nav"><a href="Registration.html">Registration</a></li>
+      <li id="lnav" class="nav"><a href="login.html">Login</a></li>
+      </ul>     
+    </nav>
+  </header>
+  <script src="script.js"></script>
+  <main>
+    
+    <div class="name" id="name"><p>
+    <h1>Register here to sign up.</h1>
+    </p></div>
+    
+    <div class="cntfm">
+      <form action="">
+        <div class="label"><label for="fname">First Name:</label></div>
+        <div class="input"><input type="text" id="tema" class="fname" required pattern="[A-Za-z]{1,30}" placeholder="Enter first name"></div>
+        
+        <div class="label"><label for="lname">Last Name:</label></div>
+        <div class="input"> <input type="text" id="tema" class="lname" required pattern="[A-Za-z]{1,30}" placeholder="Enter last name"></div>
+        <div class="label"><label for="tel">Phone:</label></div>
+        <div class="input"><input type="tel" id="tema" class="phone" required pattern="[+]{1}[2-5]{3}[0-9]{3}[0-9]{3}[0-9]{3}" placeholder="+(233)-201-123-123"></div>
+        <div class="label"><label for="gender">Gender</label></div>
+        <div class="input"><select name="gender" id="gender">
+        <option value="select">Select</option>
+        <option value="male">Male</option>
+        <option value="fmale">Female</option>
+      </select></div>
+        <div class="label"><label for="country">Country:</label></div>
+        <div class="input"><input type="text" id="tema" required pattern="[A-Za-z]*{1,50}" placeholder="Ghana" ></div>  
+        <div class="label"><label for="state">State/Province:</label></div>
+        <div class="input"><input type="text" class="state" id="tema" required parttern="[A-Za-z]*{1,50}" placeholder="Accra"></div>
+        <div class="label"><label for="email">Email:</label></div> 
+        <div class="input"><input type="email" class="email" id="tema" required parttern="[A-Za-z]*{1,50}" placeholder="ibrahim@mymail.com"></div> 
+        
+        <div class="label"> <label for="password">Password:</label></div> 
+        <div class="input"><input type="password" id="tema" class="password" required parttern="[[A-Za-z]{7}[/s]]*{8,12}"></div> 
+        <div class="label"><label for="Cpassword">Confirm password:</label></div> 
+        <div class="input"><input type="password" id="tema" class="Cpassword" required parttern="[A-Za-z/s]*{8,12}" >
+      </div>
+      <div>
+        <input type="submit"value="Sign Up">
+      </div>
+    </form>
+
+    </div>
+ </main>
+  <footer>
+      <div class="ft">
+
+        <a> &copy; Zuri Training 2022. Designed By HomeCrown Enterprise</a>
+
+      </div>
+    </footer>
+</body>
+
+</html>

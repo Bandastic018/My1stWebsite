@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:black;
+    --margin: auto;
+    --padding: 14px 8px;
+    --color: white;
+    --width: 100vw;
+    --height:100vh;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+
+#nav {
+    background-color: var(--background-color);
+    list-style-type: none;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav {
+    float: left;
+    margin: 1em;
+}
+.nav a{
+    
+    text-decoration: none;
+    text-align: center;
+    padding: var(--padding, 1em); 
+    color: white;
+    display: block;
+
+    
+}
+
+.nav li:hover {
+    
+    background-color: rgb(2, 116, 2);
+  padding: 10px;
+     
+}
+/* lnav{
+    padding: 0.1em;
+    margin-right: 1em;
+} */
+
+#name {
+    text-align: center;
+    /* margin-top: 50px ; */
+    padding-top: 60px;
+    padding-bottom: 20px;
+    
+}
+
+.brief{
+    width: 700px;
+    height: 0px;
+}
+.brief li{
+    margin-left: 60px;
+    list-style: none;
+    padding: 20px;
+    position: relative;
+    font-size: larger;
+    font-style: oblique;
+}
+
+
+
+
+
+ .me img{
+   text-align:center;
+   margin-top: 0em;
+   margin-right: 0em;
+   padding-top: 0em; 
+   margin-left: 700px; 
+    width: 400px;
+   
+}
+.me {
+   text-align:center;
+   margin-top: 0em;
+   padding-top: 0em; 
+    margin-left: 0px;
+   height: 600px;
+   margin-right: 0px;
+}
+
+.me figcaption{
+    text-align:end;
+    margin-right: 15%;
+}
+.hobbies {
+     float:left;
+    width: 300px ;
+    height: 300px;
+    text-align: center;
+    background-color: burlywood;
+    border: 1px solid black;
+    margin-left: 80px;
+    list-style: inside;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1em;
+    
+    /* position: relative; */
+}
+
+.hobbies ol li{
+    list-style-type: upper-alpha;
+   list-style-position: inside;
+    text-align:start;
+    padding: 8px 5px 4px 40px;
+    
+    
+}
+
+#prior {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: burlywood;
+    border: 1px solid black;
+    /* margin-left: 200px; */
+    /* list-style: inside; */
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 10em;
+    padding: 1em;
+
+}
+
+.prior ol li {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    text-align: start;
+    padding: 8px 5px 4px 40px;
+
+
+}
+
+.btn-container{
+     margin-top: 250px;
+    /* margin-left: 40%; */
+    /* position: relative; */
+    /* margin-bottom: 3em; */
+   /* margin-left: 100%; */
+   text-align:center;
+    
+}
+
+.btn-container a{
+    text-decoration: none;
+   color: rgb(207, 119, 67);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.btn-container :hover{
+    background-color: #e8bf2d;
+    text-decoration: wavy;
+    
+}
+.btn-container button{
+    border-radius: 50%;
+    padding: 3em;
+    border-style:none;
+    background-color: rgb(74, 224, 152);
+    
+
+}
+.ft{
+    
+    text-align: center;
+    margin-top: 2em;
+    background-color: cadetblue;
+    
+}
+
+/* Contact me */
+
+.label label {
+    padding: 20px;
+    float: left;
+    width: 20%;
+    background-color: none;
+     font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+ .input input, .input textarea, .input select {
+    width: 70%; 
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+     background-color: rgba(216, 213, 213, 0.533);;
+      margin-left: 10px;
+      margin-top: auto;
+      margin-bottom: 10px; 
+    
+    
+} 
+
+/* targeting input element */
+ #tema{
+  text-align:center;
+  font-size: large;
+} 
+
+
+/* sumbmit in a div */
+.cntfm  input[type=submit]{
+    background-color: aqua;
+    color:black;
+    padding: 30px;
+    border: none;
+    border-radius: 250%;
+    cursor:pointer;
+    margin-left: 50%;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.cntfm input[type=submit]:hover{
+    background-color: green;
+
+}
+/* main container for form. */
+ .cntfm {
+    border-radius: 7px;
+    padding: 50px;
+    background-color: burlywood; 
+    width: 60%;
+    margin: auto;
+    margin-bottom: 9em;
+    height: max-content;
+
+   }
+  /* Registration Gender */
+ #gender{
+     font-weight: bolder;
+     font-size: large;
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
