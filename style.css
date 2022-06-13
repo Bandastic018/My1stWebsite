@@ -19,6 +19,10 @@ body {
     background-color: darkcyan;
 }
 
+header, .name {
+    position: sticky;
+    top:0;
+}
 
 #nav {
     background-color: var(--background-color);
